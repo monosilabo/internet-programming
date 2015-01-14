@@ -36,7 +36,7 @@ El alumno:
 	* <head> y <body>
 	* Listas, imágenes, vínculos, tablas, formularios y más
 	* Elementos semánticos no tan comunes
-	* Contenedores genéricos: <div> y <span>
+	* Contenedores genéricos: `<div>` y `<span>`
 	* Validación de HTML
 3. Accesibilidad
 4. CSS

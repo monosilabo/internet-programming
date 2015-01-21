@@ -28,3 +28,24 @@ Presentación "Cómo funciona Internet y El modelo web estándar".
 ### Tarea
 
 Actividad "Application Foundations for the Open Web Platform".
+
+## Introducción al mundo de la Web
+
+* Historia de Internet, la Web y los estándares
+* Diferencias entre Internet y la Web
+* Estándares web y organismos de estandarización
+* Importancia de los estándares y penetración en el mercado
+
+### Referencias
+
+Temas relacionados del documento "Referencias complementarias":
+
+* Internet
+* Web
+* Estándares
+
+### Material didáctico
+
+Presentación "Introducción al mundo de la Web".
+
+### Tarea

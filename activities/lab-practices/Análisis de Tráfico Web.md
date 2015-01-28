@@ -26,4 +26,4 @@ Investiga sobre Google Analytics y responde lo siguiente:
 
 6\. Describe las características de Google Analytics.
 
-7\. ¿Qué hace G.A. para compilar los datos de un sitio web? Explica en términos técnicos la solución.
+7\. ¿Qué hace G.A. para recopilar los datos de un sitio web? Explica en términos técnicos la solución.

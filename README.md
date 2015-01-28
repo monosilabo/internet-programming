@@ -33,7 +33,7 @@ El alumno:
 	* Introducción e historia
 	* Elementos y atributos HTML
 	* DOCTYPE
-	* <head> y <body>
+	* `<head>` y `<body>`
 	* Listas, imágenes, vínculos, tablas, formularios y más
 	* Elementos semánticos no tan comunes
 	* Contenedores genéricos: `<div>` y `<span>`

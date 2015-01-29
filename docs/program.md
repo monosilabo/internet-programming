@@ -10,12 +10,13 @@
 	* Criterios de Evaluación en hoja de cálculo de **Google Docs**
 	* Comunicación y discusión de temas vía **[Google Groups](https://groups.google.com)**
 
-
 ### Referencias
 
 ### Material didáctico
 
 ### Tarea
+
+---
 
 ## Cómo funciona Internet y El modelo web estándar
 
@@ -28,6 +29,8 @@ Presentación "Cómo funciona Internet y El modelo web estándar".
 ### Tarea
 
 Actividad "Application Foundations for the Open Web Platform".
+
+---
 
 ## Introducción al mundo de la Web
 
@@ -47,5 +50,44 @@ Temas relacionados del documento "Referencias complementarias":
 ### Material didáctico
 
 Presentación "Introducción al mundo de la Web".
+
+### Tarea
+
+---
+
+## HTML5
+
+* Definición
+* Documento básico
+* Componentes: elementos, atributos y DOM
+* Vinculación entre HTML y CSS
+* Listado de elementos
+
+### Referencias
+
+### Material didáctico
+
+Presentación "HTML5".
+
+### Tarea
+
+---
+
+## Elementos HTML5
+
+* Revisión de atributos globales más importantes
+* Controladores de eventos
+* Almacenamiento de datos en documento
+* Caracteres especiales
+
+### Referencias
+
+### Material didáctico
+
+Presentación "Elementos HTML5".
+
+### Actividad
+
+Ingresa a [codecademy](http://www.codecademy.com/) y completa los ejercicios del capítulo **"Introduction to HTML"** del curso [HTML & CSS](http://www.codecademy.com/en/tracks/web)
 
 ### Tarea

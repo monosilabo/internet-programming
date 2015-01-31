@@ -65,6 +65,10 @@ Presentación "Introducción al mundo de la Web".
 
 ### Referencias
 
+Temas relacionados del documento "Referencias complementarias":
+
+* HTML
+
 ### Material didáctico
 
 Presentación "HTML5".
@@ -81,6 +85,10 @@ Presentación "HTML5".
 * Caracteres especiales
 
 ### Referencias
+
+Temas relacionados del documento "Referencias complementarias":
+
+* HTML
 
 ### Material didáctico
 

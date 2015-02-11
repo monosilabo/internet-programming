@@ -9,6 +9,6 @@ La W3C [define](http://www.w3.org/TR/html5/forms.html#forms) así a los formular
 Esta actividad consiste en leer los siguientes recursos:
 
 1. [A form of madness](http://diveintohtml5.info/forms.html). Breve y amena introducción al uso de formularios
-2. [Forms and User Input](https://developers.google.com/web/fundamentals/input/). Aprende a como crear formularios fáciles de usar
+2. [Create Amazing Forms](https://developers.google.com/web/fundamentals/input/form/). Aprende a como crear formularios fáciles de usar
 
 En la próxima actividad aplicaremos estos conocimientos.

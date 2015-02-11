@@ -40,7 +40,29 @@ De los productos te interesa almacenar:
 8. Opción para marcar que el producto está disponible. Simple, o está disponible o no
 9. SKU. Clave del producto, valida que la clave tenga de 3 a 4 letras, un guión, 5 números y 2 letras, por ejemplo: ABC-12345XZ
 
-Divide está información en dos páginas, incluye en una el formulario de Cliente y en la otra el formulario de Producto. Los formularios deben apuntar a http://education.affenbits.com/form.php, al terminar de construir el formulario prueba que los datos lleguen al servidor. Ten en consideración que los datos se envían en un formato por defecto, [elige](http://www.w3.org/TR/html5/forms.html#attr-fs-enctype) donde lo requiera el más adecuado para transferir archivos.
+Divide está información en dos páginas, incluye en una el formulario de Cliente y en la otra el formulario de Producto. Los formularios deben apuntar a http://education.affenbits.com/form.php, al terminar de construir el formulario prueba que los datos lleguen al servidor. Ten en consideración que los datos se envían en un formato por defecto, [elige](http://www.w3.org/TR/html5/forms.html#attr-fs-enctype) donde lo requiera el más adecuado para transferir archivos. La respuesta del servidor será similar a:
+
+```html
+<h1>Data</h1>
+<pre>
+Array
+(
+    [name] => AC
+)
+Array
+(
+    [photo] => Array
+        (
+            [name] => B9kpWEuCQAI2IB6.png
+            [type] => image/png
+            [tmp_name] => /private/var/tmp/php8W9gEi
+            [error] => 0
+            [size] => 142068
+        )
+
+)
+</pre>
+```
 
 ## Requerimientos generales
 

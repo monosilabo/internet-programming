@@ -99,3 +99,30 @@ Presentación "Elementos HTML5".
 Ingresa a [codecademy](http://www.codecademy.com/) y completa los ejercicios del capítulo **"Introduction to HTML"** del curso [HTML & CSS](http://www.codecademy.com/en/tracks/web)
 
 ### Tarea
+
+---
+
+## CSS
+
+* Definición
+* Historia
+* CSS3 y versiones previas
+* Módulos y snapshots
+* Proceso de estabilidad
+* Principios de diseño
+* Integración con HTML
+* Componentes básicos
+
+
+### Referencias
+
+
+### Material didáctico
+
+Presentación "CSS".
+
+### Actividad
+
+Ingresa a [codecademy](http://www.codecademy.com/) y completa los ejercicios de los capítulos **"Introduction to CSS"**, **"CSS classes and ids"** y **"CSS element positioning"** del curso [HTML & CSS](http://www.codecademy.com/en/tracks/web)
+
+### Tarea

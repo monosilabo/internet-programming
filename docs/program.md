@@ -126,3 +126,31 @@ Presentación "CSS".
 Ingresa a [codecademy](http://www.codecademy.com/) y completa los ejercicios de los capítulos **"Introduction to CSS"**, **"CSS classes and ids"** y **"CSS element positioning"** del curso [HTML & CSS](http://www.codecademy.com/en/tracks/web)
 
 ### Tarea
+
+---
+
+## CSS Layout
+
+* Normalización de estilos
+* Box Model
+	* box-sizing
+	* width/height, padding, border, margin
+* Modelo de presentación visual
+	* Flujo normal
+	* Posicionamiento
+	* Flotando un elemento
+
+
+### Referencias
+
+Temas relacionados del documento "Referencias complementarias":
+
+* CSS > Layout
+
+### Material didáctico
+
+
+### Actividad
+
+
+### Tarea

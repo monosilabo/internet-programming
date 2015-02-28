@@ -69,6 +69,8 @@ A Complete Guide to Flexbox, http://css-tricks.com/snippets/css/a-guide-to-flexb
 
 Tridiv, http://tridiv.com/  
 Unfolding the Box Model, http://rupl.github.io/unfold/  
+CSS Transforms Module Level 1, http://www.w3.org/TR/css3-transforms/  
+transform, MDN, https://developer.mozilla.org/en-US/docs/Web/CSS/transform  
 
 ### Cursos
 

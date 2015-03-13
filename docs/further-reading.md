@@ -22,7 +22,8 @@ HTML/CSS: Making webpages, Khan Academy, https://www.khanacademy.org/computing/c
 
 ### Herramientas
 
-W3C Tools, "http://www.w3.org/,tools"
+W3C Tools, "http://www.w3.org/,tools"  
+BrowserSync, http://www.browsersync.io/  
 
 ## Estandarización
 
@@ -64,13 +65,29 @@ What You May Not Know About the Z-Index Property, http://dev.tutsplus.com/articl
 
 A Complete Guide to Flexbox, http://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-
 ### Transforms
 
 Tridiv, http://tridiv.com/  
 Unfolding the Box Model, http://rupl.github.io/unfold/  
 CSS Transforms Module Level 1, http://www.w3.org/TR/css3-transforms/  
+Using CSS transforms, MDN, https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transforms
 transform, MDN, https://developer.mozilla.org/en-US/docs/Web/CSS/transform  
+
+### Transitions
+
+CSS Transitions, W3C, http://www.w3.org/TR/css3-transitions/  
+All you need to know about CSS Transitions, http://blog.alexmaccaw.com/css-transitions  
+
+### Animations
+
+CSS3 Animations, W3C, http://www.w3.org/TR/css3-animations/  
+Web Animations 1.0, W3C, http://www.w3.org/TR/web-animations/  
+JavaScript implementation of the Web Animations API, https://github.com/web-animations/web-animations-js  
+
+### Easing
+
+Easing Functions Cheat Sheet, http://easings.net/  
+cubic-bezier, http://cubic-bezier.com/  
 
 ### Cursos
 
@@ -92,9 +109,9 @@ Variables and scoping in ECMAScript 6, http://www.2ality.com/2015/02/es6-scoping
 
 ### Harmony (ES6)
 
-ECMAScript 6: A Better JavaScript for the Ambient Computing Era, http://www.slideshare.net/allenwb/wdc14-allebwb
-Using ECMAScript 6 today, http://www.2ality.com/2014/08/es6-today.html
-ECMAScript 6 equivalents in ES5, https://github.com/addyosmani/es6-equivalents-in-es5
+ECMAScript 6: A Better JavaScript for the Ambient Computing Era, http://www.slideshare.net/allenwb/wdc14-allebwb  
+sing ECMAScript 6 today, http://www.2ality.com/2014/08/es6-today.html  
+ECMAScript 6 equivalents in ES5, https://github.com/addyosmani/es6-equivalents-in-es5  
 
 ### AJAX
 

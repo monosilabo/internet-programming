@@ -154,3 +154,37 @@ Temas relacionados del documento "Referencias complementarias":
 
 
 ### Tarea
+
+---
+
+## Flujo de trabajo y Transiciones
+
+* Análisis de un flujo de trabajo para hacer más eficiente el desarrollo de aplicaciones web
+	* Node.js & npm
+	* gulp
+		* Tareas cómunes
+	* SASS
+	* Swig
+* Transiciones
+	* Propiedades que pueden ser animadas
+	* Retraso
+	* Funciones de tiempo
+* *Easing*
+
+### Referencias
+
+Los temas del documento "Referencias complementarias":
+
+* CSS > Transitions
+* CSS > Easing
+
+### Material didáctico
+
+Morphing ball, http://codepen.io/luissquall/pen/xbyreN  
+Moving balls on hover, http://codepen.io/luissquall/pen/qCrka  
+Magazine, http://codepen.io/luissquall/pen/GAjvf  
+
+### Actividad
+
+
+### Tarea

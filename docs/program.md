@@ -210,8 +210,12 @@ Los temas del documento "Referencias complementarias":
 
 ### Material didáctico
 
+Square pyramid, http://codepen.io/luissquall/pen/Ghvia  
+CSS Submarine, http://codepen.io/ajerez/pen/EaEEOW  
+Flying Bee, http://codepen.io/pwsm50/pen/aBnfp
 
 ### Actividad
 
+Práctica de laboratorio "Animación".
 
 ### Tarea

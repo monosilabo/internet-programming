@@ -188,3 +188,30 @@ Magazine, http://codepen.io/luissquall/pen/GAjvf
 
 
 ### Tarea
+
+---
+
+## Animaciones
+
+* Propiedades de una animación
+* Keyframes
+* Soporte en navegadores
+* Análisis de ejemplos
+	* CSS3 Animation Cheat Sheet
+	* Animate.css
+	* [Watch me move](https://developer.mozilla.org/samples/cssref/animations/animevents.html)
+* Control de animaciones en Chrome Dev Tools (Canary)
+
+### Referencias
+
+Los temas del documento "Referencias complementarias":
+
+* CSS > Animations
+
+### Material didáctico
+
+
+### Actividad
+
+
+### Tarea

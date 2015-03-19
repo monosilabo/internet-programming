@@ -83,6 +83,9 @@ All you need to know about CSS Transitions, http://blog.alexmaccaw.com/css-trans
 CSS3 Animations, W3C, http://www.w3.org/TR/css3-animations/  
 Web Animations 1.0, W3C, http://www.w3.org/TR/web-animations/  
 JavaScript implementation of the Web Animations API, https://github.com/web-animations/web-animations-js  
+Using CSS animations, https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations  
+CSS3 Animation Cheat Sheet, http://www.justinaguilar.com/animations/index.html  
+Animate.css, http://daneden.github.io/animate.css/  
 
 ### Easing
 

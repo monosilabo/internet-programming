@@ -213,9 +213,43 @@ Los temas del documento "Referencias complementarias":
 Square pyramid, http://codepen.io/luissquall/pen/Ghvia  
 CSS Submarine, http://codepen.io/ajerez/pen/EaEEOW  
 Flying Bee, http://codepen.io/pwsm50/pen/aBnfp
+Product sync status – CSS3 Pulse, http://codepen.io/Weltraumakustik/pen/zxWJbL
 
 ### Actividad
 
 Práctica de laboratorio "Animación".
+
+### Tarea
+
+---
+
+## Canvas
+
+* Elemento Canvas
+* Contextos
+* Sistema de coordenadas
+* Líneas
+* Curvas
+* Trazos
+* Formas
+* Texto
+* Transformaciones
+* Estados
+
+
+### Referencias
+
+Los temas del documento "Referencias complementarias":
+
+* Canvas
+
+### Material didáctico
+
+Canvas rectangles, http://codepen.io/luissquall/pen/cknxh  
+Smiling face, http://codepen.io/luissquall/pen/pKsGw  
+Canvas states, http://codepen.io/luissquall/pen/jsGLas  
+
+### Actividad
+
 
 ### Tarea

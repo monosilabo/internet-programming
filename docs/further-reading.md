@@ -120,6 +120,13 @@ ECMAScript 6 equivalents in ES5, https://github.com/addyosmani/es6-equivalents-i
 
 Uploading Files with AJAX, http://net.tutsplus.com/tutorials/javascript-ajax/uploading-files-with-ajax/  
 
+## Canvas
+
+Canvas, http://diveintohtml5.info/canvas.html  
+Canvas tutorial, https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial  
+HTML5 Canvas Tutorials, http://www.html5canvastutorials.com/  
+HTML5 Canvas Cheat Sheet, http://cheatsheetworld.com/programming/html5-canvas-cheat-sheet/  
+
 ### Architecture
 
 JavaScript Architecture for the 23rd Century, http://modernweb.com/2014/10/15/javascript-architecture-23rd-century/  

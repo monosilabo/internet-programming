@@ -86,6 +86,7 @@ JavaScript implementation of the Web Animations API, https://github.com/web-anim
 Using CSS animations, https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations  
 CSS3 Animation Cheat Sheet, http://www.justinaguilar.com/animations/index.html  
 Animate.css, http://daneden.github.io/animate.css/  
+Web Animations and the Animate Method, http://www.kirupa.com/html5/web_animations_animate_method.htm
 
 ### Easing
 
@@ -118,6 +119,11 @@ ECMAScript 6 equivalents in ES5, https://github.com/addyosmani/es6-equivalents-i
 
 ### AJAX
 
+Ajax, https://developer.mozilla.org/en/docs/AJAX
+Getting Started, https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started
+Using XMLHttpRequest, https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest
+Using CORS, http://www.html5rocks.com/en/tutorials/cors/
+New Tricks in XMLHttpRequest2, http://www.html5rocks.com/en/tutorials/file/xhr2/
 Uploading Files with AJAX, http://net.tutsplus.com/tutorials/javascript-ajax/uploading-files-with-ajax/  
 
 ## Canvas

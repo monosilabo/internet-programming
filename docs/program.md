@@ -253,3 +253,34 @@ Canvas states, http://codepen.io/luissquall/pen/jsGLas
 
 
 ### Tarea
+
+---
+
+## AJAX
+
+* ¿Qué es AJAX? Asynchronous JavaScript + XML 
+* HTTP
+	* Metódos
+	* Códigos de respuesta
+* XMLHttpRequest
+* JSON
+* CORS
+* FormData
+* Content types
+	* application/x-www-form-urlencoded
+	* multipart/form-data
+
+### Referencias
+
+Los temas del documento "Referencias complementarias":
+
+* AJAX
+
+### Material didáctico
+
+Ejercicio AJAX.
+
+### Actividad
+
+
+### Tarea

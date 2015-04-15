@@ -1,0 +1,107 @@
+<!doctype html>
+<html class='no-js' lang=''>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='x-ua-compatible' content='ie=edge'>
+		<title>GET</title>
+		<meta name='description' content=''>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+		<link rel='apple-touch-icon' href='apple-touch-icon.png'>
+		<!-- Place favicon.ico in the root directory -->
+
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+	</head>
+
+	<body>
+		<div class='container'>
+			<h1>AJAX</h1>
+			
+			<h2>GET</h2>
+			
+			<form>
+				<div class='form-group'>
+					<label for='urls'>URL</label>
+					<select id='urls' class='form-control'>
+						<option value='/tests/hello'>/tests/hello</option>
+						<!--
+						http://www.html5rocks.com/en/tutorials/cors/
+						Add line '127.0.0.1	other.dev' to your hosts file: /etc/hosts
+						-->
+						<option value='http://other.dev:8000/tests/hello'>http://other.dev:8000/tests/hello</option>
+						<option value='http://other.dev:8000/tests/cors'>http://other.dev:8000/tests/cors</option>
+						<option value='/tests/json'>/tests/json</option>
+						<option data-key='json-parsed' value='/tests/json'>/tests/json parsed</option>
+					</select>
+				</div>
+				
+				<button id='btn-load' class='btn btn-default'>Load</button>
+				
+				<output id='results'></output>
+			</form>
+			
+		</div>
+		
+		<script>
+			var btnLoad = document.getElementById('btn-load');
+			var urlsNode = document.getElementById('urls');
+			
+			var Handlers = {
+				'json-parsed': function() {
+					var data = JSON.parse(this.responseText),
+						template = 'My name is {name} and {rand} is my lucky number',
+						message = template.replace('{name}', data.name).replace('{rand}', data.rand);
+						
+					log(message);
+				}
+			};
+			
+			btnLoad.addEventListener('click', function(e) {
+				var optionNode = urlsNode.options[urlsNode.selectedIndex],
+					dataset = optionNode.dataset,
+					url = optionNode.value,
+					options;
+				
+				options = {
+					url: url
+				};
+				
+				// https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_data_attributes
+				if (dataset.key && Handlers[dataset.key]) {
+					options.success = Handlers[dataset.key];
+				}
+				
+				e.preventDefault();
+				makeRequest(options);
+			});
+			
+			function makeRequest(options) {
+				// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#XMLHttpRequest()
+				var xhr = new XMLHttpRequest();
+				
+				options = options || {};
+				options.success = options.success || function() {	
+					log(this.responseText);
+				};
+				
+				// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#Events
+				xhr.onreadystatechange = function(e) {
+					// XMLHttpRequest.readyState: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#xmlhttprequest-readystate
+					// HTTP Status Codes: http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
+	  				if (this.readyState == 4 && this.status == 200) {
+						(options.success.bind(this))();
+					}
+				};
+				
+				// DOMString method, DOMString url, optional boolean async,...
+				xhr.open('GET', options.url, true);
+				xhr.send();
+			}
+			
+			function log(message) {
+				var el = document.getElementById('results');
+				el.innerHTML += message + '<br />';	
+			}
+		</script>
+	</body>
+</html>

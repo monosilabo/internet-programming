@@ -1,0 +1,94 @@
+<!doctype html>
+<html class='no-js' lang=''>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='x-ua-compatible' content='ie=edge'>
+		<title>POST</title>
+		<meta name='description' content=''>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+		<link rel='apple-touch-icon' href='apple-touch-icon.png'>
+		<!-- Place favicon.ico in the root directory -->
+
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+	</head>
+
+	<body>
+		<div class='container'>
+			<h1>AJAX</h1>
+			
+			<h2>POST</h2>
+			
+			<form id='user-form'>
+				<div class='form-group'>
+					<label for='name-control'>Name</label>
+					<input type='text' name='name' class='form-control' id='name-control' placeholder='Luis'>
+				</div>
+				
+				<div class='form-group'>
+					<label for='last-name-control'>Last name</label>
+					<input type='text' name='lastName' class='form-control' id='last-name-control' placeholder='Ramos'>
+				</div>
+				
+				<button id='btn-send' class='btn btn-default'>Send</button>
+				
+				<output id='results'></output>
+			</form>
+			
+		</div>
+		
+		<script>
+			var btnSend = document.getElementById('btn-send');
+			
+			btnSend.addEventListener('click', function(e) {
+				var url = '/tests/echo',
+					options;
+				
+				options = {
+					url: url,
+					form: 'user-form'
+				};
+				
+				e.preventDefault();
+				makeRequest(options);
+			});
+			
+			function makeRequest(options) {
+				var xhr = new XMLHttpRequest(),
+					formData = new FormData(),
+					formNode = null,
+					nodes;
+				
+				options = options || {};
+				options.success = options.success || function() {	
+					log(this.responseText);
+				};
+				
+				if (options.form) {
+					formNode = document.getElementById(options.form);
+					nodes = formNode.querySelectorAll('input');
+					
+					// https://css-tricks.com/snippets/javascript/loop-queryselectorall-matches/
+					for (var index = 0; index < nodes.length; index++) {
+						var input = nodes[index];
+						formData.append(input.name, input.value);
+					}
+				}
+				
+				xhr.onreadystatechange = function(e) {
+	  				if (this.readyState == 4 && this.status == 200) {
+						(options.success.bind(this))();
+					}
+				};
+				
+				xhr.open('POST', options.url, true);
+				xhr.send(formData);
+			}
+			
+			function log(message) {
+				var el = document.getElementById('results');
+				el.innerHTML += message + '<br />';	
+			}
+		</script>
+	</body>
+</html>
